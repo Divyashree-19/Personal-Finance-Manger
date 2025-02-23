@@ -1,0 +1,67 @@
+body {
+    background-color: #4a667e;
+}
+
+.main {
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.transaction-container {
+    padding: 5px 10px;
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.dashboard {
+    width: 685px;
+}
+
+.dashboard p {
+    font-weight: bold;
+    font-size: large;
+    padding: 12px;
+    width: 180px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.amount-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.total-balance {
+    background-color: #26547c;
+    color: #fff;
+}
+
+.income {
+    background-color: #ffd166;
+    color: #000;
+}
+
+.expense {
+    background-color: #ef476f;
+}
+
+@media screen and (max-width: 576px) {
+    .dashboard {
+        width: 100%;
+    }
+
+    .transaction-container {
+        width: 100%;
+    }
+
+    .total-balance {
+        width: 300px;
+    }
+
+    .dash-transaction-container {
+        width: 100%;
+    }
+}
